@@ -1,0 +1,52 @@
+<line id='34'><active clause id='1'><variable name='sides'>
+<line id='37'><active clause id='1'><variable name='side1'>
+<line id='37'><active clause id='1'><variable name='side2'>
+<line id='37'><active clause id='1'><variable name='side3'>
+<line id='41'><active clause id='1'><variable name='side1'>
+<line id='41'><active clause id='1'><variable name='side2'>
+<line id='44'><active clause id='1'><variable name='side2'>
+<line id='44'><active clause id='1'><variable name='side3'>
+<line id='47'><active clause id='1'><variable name='side1'>
+<line id='47'><active clause id='1'><variable name='side3'>
+<line id='50'><active clause id='1'><variable name='triang'>
+<line id='51'><active clause id='1'><variable name='side1'>
+<line id='51'><active clause id='1'><variable name='side2'>
+<line id='51'><active clause id='1'><variable name='side3'>
+<line id='51'><active clause id='2'><variable name='side1'>
+<line id='51'><active clause id='2'><variable name='side2'>
+<line id='51'><active clause id='2'><variable name='side3'>
+<line id='51'><active clause id='3'><variable name='side1'>
+<line id='51'><active clause id='3'><variable name='side2'>
+<line id='51'><active clause id='3'><variable name='side3'>
+<line id='57'><active clause id='1'><variable name='triang'>
+<line id='60'><active clause id='1'><variable name='side1'>
+<line id='60'><active clause id='1'><variable name='side2'>
+<line id='60'><active clause id='1'><variable name='side3'>
+<line id='60'><active clause id='1'><variable name='triang'>
+<line id='63'><active clause id='1'><variable name='side1'>
+<line id='63'><active clause id='1'><variable name='side2'>
+<line id='63'><active clause id='1'><variable name='side3'>
+<line id='63'><active clause id='1'><variable name='triang'>
+<line id='66'><active clause id='1'><variable name='side1'>
+<line id='66'><active clause id='1'><variable name='side2'>
+<line id='66'><active clause id='1'><variable name='side3'>
+<line id='66'><active clause id='1'><variable name='triang'>
+<trace>-34</trace>
+<trace>-37</trace>
+<trace>-50</trace>
+<trace>-51</trace>
+<trace>-57</trace>
+<trace>-60</trace>
+<trace>-63</trace>
+<trace>-66</trace>
+<trace>34</trace>
+<trace>37</trace>
+<trace>41</trace>
+<trace>44</trace>
+<trace>47</trace>
+<trace>50</trace>
+<trace>51</trace>
+<trace>57</trace>
+<trace>60</trace>
+<trace>63</trace>
+<trace>66</trace>
