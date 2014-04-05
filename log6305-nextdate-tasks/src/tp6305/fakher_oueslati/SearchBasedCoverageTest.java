@@ -25,11 +25,17 @@ public class SearchBasedCoverageTest extends RandomCoverageTest {
 
 		// TODO generate the initial test data randomly.
 		ExePath exePath = this.exePaths.get(cursor);
-
+		int maxDay=50;
+		int minDay=-1;
+		int maxMonth=50;
+		int minMonth=-1;
+		int maxYear=3000;
+		int minYear=2000;
 		Random r = new Random();
-		testData[0]=r.nextInt(50-0) + 0;
-		testData[1]=r.nextInt(30-0) + 0;
-		testData[2]=r.nextInt(3000-2000) + 2000;
+		testData[0]=r.nextInt(maxDay-minDay) + minDay;
+		testData[1]=r.nextInt(maxMonth-minMonth) + minMonth;
+		testData[2]=r.nextInt(maxYear-minYear) + minYear;
+
 
 		int num = 0;
 
