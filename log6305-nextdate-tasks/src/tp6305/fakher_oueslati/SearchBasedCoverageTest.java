@@ -92,7 +92,6 @@ public class SearchBasedCoverageTest extends RandomCoverageTest {
 		{
 			builder.append(testData[j]).append(", ");
 		}
-		System.out.println(exePath.toString());
 		cursor++;
 
 	}
