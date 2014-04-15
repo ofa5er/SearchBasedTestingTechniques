@@ -32,7 +32,7 @@ public class SearchBasedCoverageTest extends RandomCoverageTest {
 			randomAscii=r.nextInt(asciiMax-asciiMin) + asciiMin;
 			testData[0]+=Character.toString ((char) randomAscii);
 		}
-		System.out.println(testData[0]);
+
 		int num = 0;
 		char newChar;
 		while (num != exePath.conditions.size()) {
@@ -50,7 +50,6 @@ public class SearchBasedCoverageTest extends RandomCoverageTest {
 				if (Math.abs(fit[0])+Math.abs(fit[1])+Math.abs(fit[2])+Math.abs(fit[3])== 0) {
 					num++;
 				} else {
-					System.out.println(fit[0]+":"+fit[1]+":"+fit[2]+":"+fit[3]);
 					if (condition.getOperator()==Operator.EQUAL)
 					{
 						for (int h=0;h<4;h++)
@@ -59,7 +58,6 @@ public class SearchBasedCoverageTest extends RandomCoverageTest {
 							{
 							if (condition.result==false)
 							{
-
 								newChar= (char) (testData[0].charAt(h) + fit[h]);
 								testData[0]=testData[0].substring(0,h)+newChar+testData[0].substring(h+1);
 							}else
@@ -72,16 +70,13 @@ public class SearchBasedCoverageTest extends RandomCoverageTest {
 					}
 					num=0;
 					this.iterationNum++;
-					System.out.println(testData[0]);
 					break;
 				}
 			}
 
 		}
 		builder.append(testData[0]).append(", ");
-
 		cursor++;
-
 	}
 
 	@Override
@@ -89,8 +84,6 @@ public class SearchBasedCoverageTest extends RandomCoverageTest {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
-
 	private void initBranches() {
 		ExePath b1=new ExePath();
 		b1.addCondition("inputstring",Operator.EQUAL,"R2d!",true);
