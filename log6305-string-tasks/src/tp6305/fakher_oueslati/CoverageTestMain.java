@@ -1,4 +1,4 @@
-package tp6305.your_name;
+package tp6305.fakher_oueslati;
 
 import tp6305.CoverageTest;
 
@@ -10,9 +10,9 @@ public class CoverageTestMain {
 	public static void main(String[] args) {
 
 				
-		CoverageTest coverageTest = new RandomCoverageTest();
+	//	CoverageTest coverageTest = new RandomCoverageTest();
 		
-		//CoverageTest coverageTest = new SearchBasedCoverageTest();
+		CoverageTest coverageTest = new SearchBasedCoverageTest();
 
 		testBranchCoverage(coverageTest, 0.70);
 				
@@ -28,7 +28,7 @@ public class CoverageTestMain {
 	private static void testBranchCoverage(CoverageTest coverageTest,
 			double coverageThreshold) {
 		int total = 0;
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 1; i++) {
 			
 			coverageTest.testBranchCoverage(coverageThreshold);
 
